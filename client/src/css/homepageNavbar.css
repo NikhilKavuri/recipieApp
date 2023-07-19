@@ -1,0 +1,22 @@
+.app-logo{
+    width: 3vw;
+    margin-right: 5px;
+}
+.dropdown-icon{
+    height: 30px;
+    width: 30px;
+}
+.dropdown-icon:active{
+    transition: 0.3s ease;
+}
+.menu{
+    background-color: #391053;
+    min-width: 100px;
+    height: fit-content;
+}
+
+@media screen and (max-width:800px){
+    .app-logo{
+        width: 30px;
+    }
+}

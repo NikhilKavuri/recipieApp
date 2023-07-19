@@ -1,0 +1,31 @@
+.body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.body-container{
+    width: 90%;
+    height:fit-content;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border-radius: 10px;
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-between ;
+    flex-direction: column;
+    gap: 25vh;
+    position: relative;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    padding-bottom: 2rem
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 80px;
+   display: flex;
+   align-items: end;
+  }
+  
