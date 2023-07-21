@@ -15,7 +15,7 @@ const Corousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
-        <img className="carousel-image" src={chicken} />
+        <img className="carousel-image" src={chicken} alt="Chicken recipie" />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
@@ -24,7 +24,7 @@ const Corousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={3000}>
-        <img className="carousel-image" src={veg} />
+        <img className="carousel-image" src={veg} alt="Veg recipie"/>
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>

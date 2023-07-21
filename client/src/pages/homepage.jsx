@@ -2,6 +2,7 @@ import React from "react";
 import "../css/homepage.css";
 import HomePageNavbar from "../components/HomePageNavbar";
 import { HomepageContent } from "../components/HomepageContent";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -14,7 +15,9 @@ const HomePage = () => {
           <HomepageContent />
         </section>
       </div>
-      <div className="footer"></div>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

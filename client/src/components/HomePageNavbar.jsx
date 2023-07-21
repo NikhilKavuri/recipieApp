@@ -25,13 +25,12 @@ const HomePageNavbar = () => {
     <Navbar
       data-bs-theme="dark"
       style={{
-        borderRadius: "5px 5px 5px 5px",
+        borderRadius: "0 0 5px 5px",
         backgroundColor: "#5a2675",
         position: "fixed",
         top: "0",
-        marginLeft:"5vw",
         zIndex:"20",
-        width: "90%",
+        width: "100%",
       }}
     >
       <Container style={{ display: "flex", justifyContent: "space-evenly", flexWrap:"wrap" }}>
